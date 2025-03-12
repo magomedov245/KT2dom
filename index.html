@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .cats-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .cat-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .cat-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .cat-card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .cat-card p {
+            font-size: 1em;
+            color: #555;
+            margin: 5px 0;
+        }
+        .favourite {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Наши котики</h1>
+    <div class="cats-container" id="cats-container">
+        <!-- Сюда будут добавлены карточки котиков -->
+    </div>
+
+    <!-- Подключаем JavaScript-файл -->
+    <script src="script.js"></script>
+</body>
+</html>
